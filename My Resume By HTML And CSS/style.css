@@ -10,7 +10,7 @@ body *{
 
 
 .container{
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
     grid-template-columns: 100vw;
     grid-template-rows: 50px 60px 250px 550px 600px 530px 230px 100px;
@@ -65,7 +65,7 @@ a:hover{
         height: 100vh;
         display: grid;
         grid-template-columns: minmax(390px, auto);
-        grid-template-rows: 50px 80px 300px 800px 950px 850px 230px 100px;
+        grid-template-rows: 50px 80px 300px 650px 700px 650px 230px 100px;
     }
 }
 
