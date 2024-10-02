@@ -59,3 +59,13 @@ a{
 a:hover{
     color: #f0d9b5;
 }
+
+@media screen and (max-width: 900px){
+    .container{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: minmax(390px, auto);
+        grid-template-rows: 50px 80px 300px 800px 950px 850px 230px 100px;
+    }
+}
+
